@@ -2,7 +2,7 @@
 title: "git_example"
 author: "TM"
 date: "9/13/2018"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -57,3 +57,7 @@ plot_df = tibble(
 )
 
 ggplot(plot_df, aes(x = x)) + geom_histogram()
+
+#p8105_example_tm
+
+
